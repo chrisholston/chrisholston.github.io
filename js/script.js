@@ -1,3 +1,6 @@
+
+$('h1').addClass('text-center');
+
 function handleGetData(event){
     event.preventDefault();
     // Load in the value of the search textbox:
