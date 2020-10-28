@@ -18,9 +18,9 @@ function handleGetData(event){
       }
     }
     $.ajax(settings).done(function (response) {
-      console.log(response.tracks.hits[0]);
-      let $blank = $("#song");
-      $blank.text("Song is " + response.tracks.hits[0]);
+      console.log(response.tracks[0]);
+       let $blank = $("#song");
+       $blank.text("Song is " + response.tracks.hits[0].track.title);
     });
   }
   $('form').on("submit", handleGetData)
@@ -33,8 +33,8 @@ function handleGetData(event){
         //  let $blank = $("#song");
         // $blank.text("Song is " + response.tracks.hits[0]);
           
-  //         let $artist = $("#artist");
-  //         $artist.text("Artist Name is" + data.main.artist);
+      // let $artist = $("#artist"); 
+      // $artist.text("Artist Name is" + response.track.artist);
          
   //         let $title =$("#title");
   //         $title.text("The title of the song is "  + data.main.title);
