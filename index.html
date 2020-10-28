@@ -8,16 +8,16 @@
   <script defer src="./js/script.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
   integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link rel = "stylesheet" href="style.css">
-  <title>AJAX Weather Lab</title>
+  <link rel = "stylesheet" href="./css/style.css">
+  <title>Song Analyzer App</title>
 </head>
 <body>
-  <h1> Song Analyzer App</h1>
+  <h1 class="jumbotron"> Song Analyzer App</h1>
   <main id= "menu">
     <p id="song"> <strong> Find Song Info Below! </strong> </p>
-      <form>
-        <input id="search" type="text" placeholder="Type Song Here" />
-        <input type="submit" value="Search!" />
+      <form class="searchbar">
+        <input id="search" type="text" value="" placeholder="Type Song Here" />
+        <button id="search"type ="submit" class="btn btn-success">Search for Info</button>
       </form>
     </p>
     <p id="artist"> Artist: 
@@ -25,7 +25,7 @@
 
     </p>
 
-    <p id="title"> Song Title: 
+    <p id="song"> Song Title: 
 
 
     </p>
