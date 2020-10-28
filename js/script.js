@@ -21,12 +21,18 @@ function handleGetData(event) {
   $.ajax(settings).done(function (response) {
     console.log(response.tracks[0]);
     let $blank = $("#artist");
-    $blank.text("Artist is " + response.tracks.hits[0].track.subtitle);
+    $blank.text("Artist is: " + response.tracks.hits[0].track.subtitle);
   });
   $.ajax(settings).done(function (response) {
     console.log(response.tracks[0]);
     let $blank = $("#song");
-    $blank.text("Song is " + response.tracks.hits[0].track.title);
+    $blank.text("Song is: " + response.tracks.hits[0].track.title);
+  });
+
+  $.ajax(settings).done(function (response) {
+    console.log(response.tracks[0]);
+    let $blank = $("#album");
+    $blank.text("Listen to album at: "+ response.tracks.hits[0].track.url);
   });
 }
 $('form').on("submit", handleGetData)

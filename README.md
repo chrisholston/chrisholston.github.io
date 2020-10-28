@@ -1,4 +1,5 @@
 ## Song Analyzer Project
     - Search the database to find info on your favorite songs.
-    - Type a song title into the search bar to receive information on the artist and album.
+    - Simply type a keyword into the search bar, and a reccomendation will appear with Artist Name, Song Title, and Album. 
+    - Discover new music from all types and genres! 
     
