@@ -1,23 +1,39 @@
-/* 
-
-body {
-    font-family: Tahoma, Geneva, sans-serif;
-    height: 100vh; 
-    margin: 0;
-    display: grid;
-    grid-template-rows: 3rem auto; 
-    color: rgb(35, 26, 56);
-    background-color: bisque;
-  }
-
-h1 {
-    text-align:center;
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+:root {
+    --logo-font: 'Monoton', cursive;
 }
 
-#menu{
+h1.jumbotron {
+    font-family: var(--logo-font);
+    background-color: #f2d657;
+    color: black;
+}
+
+body {
+    color: white;
+    background-color:black;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+
+button {
+    color: black;
+    font-weight: 200;
+    height: 75px;
+    margin: 0 0 0 20px;
+    border-radius: 50px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+input {
     text-align: center;
-} */
+    padding: 10px;
+    margin: 10px 10px 0 0;
+}
 
 a {
-    text-align: center;
+    color: white;
 }
