@@ -22,4 +22,4 @@
 [Click here](https://chrisholston.github.io) to see the deployed app!
 
 ## Screenshots
-![wireframe]~/Users/christopherholston/GitHub/chrisholston.github.io/wireframe.jpeg
+![wireframe](imgs/wireframe.jpeg)
