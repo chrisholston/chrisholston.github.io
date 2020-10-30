@@ -20,3 +20,6 @@
 - Allow the user more search options such as BPM, Song Key, Song Modality, etc.
 
 [Click here](https://chrisholston.github.io) to see the deployed app!
+
+## Screenshots
+![wireframe]~/Users/christopherholston/GitHub/chrisholston.github.io/wireframe.jpeg
