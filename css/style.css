@@ -2,38 +2,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 :root {
     --logo-font: 'Monoton', cursive;
+    --shadow-color:  rgb(236, 228, 228);
 }
 
 h1.jumbotron {
     font-family: var(--logo-font);
     background-color: #f2d657;
     color: black;
+    text-shadow: 1px 1px var(--shadow-color);
 }
 
 body {
-    color: white;
+    color: #f2d657;
     background-color:black;
     font-family: 'Playfair Display', serif;
     font-size: 25px;
+    
 }
 
-button {
+button{
+  border: none;
+  background-color: #f2d657;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  height:50px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+
+input{
+    border: none;
+    background-color: #f2d657;
     color: black;
-    font-weight: 200;
-    height: 75px;
-    margin: 0 0 0 20px;
-    border-radius: 50px;
-    display: flex;
-    padding: 20px;
-    justify-content: center;
-}
-
-input {
     text-align: center;
-    padding: 10px;
-    margin: 10px 10px 0 0;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    height:40px;
 }
 
 a {
-    color: white;
+    color: #f2d657;
+}
+
+footer.jumbotron {
+    text-align: center;
+    font-size: 20px;
+    background-color: #f2d657;
+    color: black;
 }
