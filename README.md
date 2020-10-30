@@ -1,5 +1,5 @@
 ## Song Generator Project
-    - Song generator is a web based application utilizing the Shazam API to provide music info based on a users keyword search. 
+    - Song generator is a web based application utilizing the Shazam API to provide music info based on a keyword search. 
     - Simply type a keyword into the search bar, and a reccomendation will appear with Artist Name, Song Title, and a link to listen.
     - Discover new music from all genres with the click of one button! 
 
