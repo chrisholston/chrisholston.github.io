@@ -13,7 +13,7 @@
 - Google Fonts
 - 
 
-## Future Enhancements
+## Future Updatesßß
 - Allow the user to save songs to their local storage.
 - Provide the user with recommendations on similar artists and songs.
 - Allow the user more search options such as BPM, Song Key, Song Modality, etc.
