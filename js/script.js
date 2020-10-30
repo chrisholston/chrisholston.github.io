@@ -12,7 +12,7 @@ function handleGetData(event) {
     "method": "GET",
     "headers": {
       "x-rapidapi-host": "shazam.p.rapidapi.com",
-      "x-rapidapi-key": "f4d2747f12msh60e62a78f607b93p1cd5cajsnd8d8505fa600"
+      "x-rapidapi-key": "e07f31d146mshdc69100a3e58e76p17b405jsn6d637c545128"
     }
   }
   $.ajax(settings).done(function (response) {
