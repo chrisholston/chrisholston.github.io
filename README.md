@@ -19,4 +19,3 @@
 - Provide the user with recommendations on similar artists and songs.
 - Allow the user more search options such as BPM, Song Key, Song Modality, etc.
 
-[Click here](https://chrisholston.github.io) to see the deployed app!
