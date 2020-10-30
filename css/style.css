@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 :root {
     --logo-font: 'Monoton', cursive;
-    --shadow-color:  rgb(236, 228, 228);
+    --shadow-color:  rgb(220, 228, 148);
 }
 
 h1.jumbotron {
     font-family: var(--logo-font);
     background-color: #f2d657;
     color: black;
-    text-shadow: 1px 1px var(--shadow-color);
+    text-shadow: 4px 4px var(--shadow-color);
 }
 
 body {
